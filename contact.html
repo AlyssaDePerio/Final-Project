@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Kodama Mountain Resort</title>
+        <meta name="Alyssa DePerio" content="Final Project">
+        <meta name="description" content="On this page we will learn about the Lotus Resort & Spa">
+
+        <!--FAVICON-->
+        <link rel="shortcut icon" href="images/mountains.ico" type="image/x-icon"> 
+        <link rel="icon" href="images/mountains.ico" type="image/x-icon">
+        
+        <!-- Google Fonts Links -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jomolhari&family=Mate+SC&family=Playfair+Display&display=swap" rel="stylesheet">
+       
+        <!--STYLESHEET-->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <!--LOGO IMAGE-->
+            <a href="index.html" aria-label="Go to the Kodama Mountain Resort homepage"><img src="images/kodamalogo.png" alt="The Kodama Mountain Resort Logo" width="300" height="110"></a>
+            
+            <nav>
+                <!--NAV-->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--HERO/LOGO IMAGE-->
+            <div class="hero">
+                <img src="images/swiss-valley.jpg" alt="Mountain Area" width="1440" height="560">
+            </div>
+        <main>
+            <section id="contact">
+                <div class="contact-content">
+                    <h2>Contact Us</h2>
+                    <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+
+                    <img src="images/swiss-peak.jpg" alt="View of Snowy Mountain" width="360" height="490">
+                </div>
+                <div class="formcontent">
+                    <form action="#" target="_blank" method="POST">
+
+                        <label for="name">Full Name:<span class="required">*</span></label>
+                        <input type="text" id="name" name="name" required>
+            
+                        <label for="email">Email Address:<span class="required">*</span></label>
+                        <input type="email" id="email" name="email" required>
+            
+                        <label for="phone">Phone Number:<span class="required">*</span></label>
+                        <input type="tel" id="phone" name="phone" required>
+
+                        <fieldset>
+                            <legend>Preferred Method of Contact<span class="required">*</span></legend>
+                                <input type="checkbox" name="phone" id="phone" required>
+                                <label for="phone">Phone</label>
+
+                                <input type="checkbox" name="email" id="email" required>
+                                <label for="email">Email</label>
+                        </fieldset> 
+            
+                        <label for="comments">Comments:<span class="required">*</span></label>
+                        <textarea name="comments" id="comments" required></textarea>
+                
+                        <input type="submit" name="my_submit" id="my_submit" value="Submit the Form">
+                    </form>
+                
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2023 - Kodama Mountain Resort</p>
+            <small>This site is for educational purposes only</small>
+        </footer>
+    </body>
+    
+</html>
